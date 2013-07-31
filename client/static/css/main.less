@@ -1,0 +1,124 @@
+body, html {
+	padding:0;
+	margin:0;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+
+	&.chat {
+		background: url(../images/bg-chat.jpg);
+	}
+}
+
+header {
+	background-color:#2f4444;
+	height:36px;
+	padding:8px;
+
+	.userImage {
+		display: inline-block;
+	}
+
+
+	.userData {
+
+		display:inline-block;
+		margin-left:5px;
+
+
+		h1 {
+			margin: 0;
+			padding: 0;
+			font-weight: 300;
+			color: #fff;
+			font-size: 20px;
+			line-height: 16px;
+		}
+
+		small {
+			color:#6e7070;
+		}
+	}
+}
+
+ul.messages {
+
+	list-style: none;
+	padding: 0;
+	margin:30px 10px;
+
+	li {
+
+		display: block;
+		margin-top: 10px;
+		float: right;
+		clear:both;
+
+		.msg {
+			background-color: #fcfbf6;
+			padding: 5px;
+			display:inline-block;
+
+		}
+
+		&.other {
+			float: left;
+		}
+
+		.tick, .doubletick {
+			height:10px;
+			width:15px;
+			display:none;
+			margin-left:5px;
+		}
+
+		.tick {
+			background:url(../images/single.png) no-repeat;
+		}
+
+		.doubletick {
+			background:url(../images/double.png) no-repeat;
+		}
+	
+		&.welcome {
+			background-color:#d8eff7;
+			text-align:center;
+			font-size:13px;
+			display:block;
+			color:#6e7070;
+			margin-left:auto;
+			margin-right:auto;
+			width:150px;
+			float:none;
+
+		}
+	}
+}
+
+
+footer {
+	background-color: #efeeeb;
+	height: 50px;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+
+	input {
+		width: 70%;
+		display: inline-block;
+
+		padding: 10px;
+		background-color: #efeeeb;
+		border:none;
+		border-bottom: 1px solid #efeeeb - #222;
+	}
+
+	button {
+		-webkit-appearance: none;
+		background-color: #ccc;
+		border: 0;
+		padding: 6px 13px;
+		color: #fff;
+		font-size: 14px;
+		border-radius: 7px;
+	}
+}

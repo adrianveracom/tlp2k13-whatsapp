@@ -1,0 +1,10 @@
+{
+  "name": "whatsapp",
+  "author": "Adrian Vera <a@adrianvera.com>",
+  "description": "Whatsapp demo app",
+  "dependencies" : {
+    "express"  : "latest",
+    "nstore" :  "latest",
+    "socket.io" : "latest"
+  }
+}

@@ -1,0 +1,101 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+body.chat,
+html.chat {
+  background: url(../images/bg-chat.jpg);
+}
+header {
+  background-color: #2f4444;
+  height: 36px;
+  padding: 8px;
+}
+header .userImage {
+  display: inline-block;
+}
+header .userData {
+  display: inline-block;
+  margin-left: 5px;
+}
+header .userData h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  color: #fff;
+  font-size: 20px;
+  line-height: 16px;
+}
+header .userData small {
+  color: #6e7070;
+}
+ul.messages {
+  list-style: none;
+  padding: 0;
+  margin: 30px 10px;
+}
+ul.messages li {
+  display: block;
+  margin-top: 10px;
+  float: right;
+  clear: both;
+}
+ul.messages li .msg {
+  background-color: #fcfbf6;
+  padding: 5px;
+  display: inline-block;
+}
+ul.messages li.other {
+  float: left;
+}
+ul.messages li .tick,
+ul.messages li .doubletick {
+  height: 10px;
+  width: 15px;
+  display: none;
+  margin-left: 5px;
+}
+ul.messages li .tick {
+  background: url(../images/single.png) no-repeat;
+}
+ul.messages li .doubletick {
+  background: url(../images/double.png) no-repeat;
+}
+ul.messages li.welcome {
+  background-color: #d8eff7;
+  text-align: center;
+  font-size: 13px;
+  display: block;
+  color: #6e7070;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  float: none;
+}
+footer {
+  background-color: #efeeeb;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer input {
+  width: 70%;
+  display: inline-block;
+  padding: 10px;
+  background-color: #efeeeb;
+  border: none;
+  border-bottom: 1px solid #cdccc9;
+}
+footer button {
+  -webkit-appearance: none;
+  background-color: #ccc;
+  border: 0;
+  padding: 6px 13px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 7px;
+}
