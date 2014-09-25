@@ -18,5 +18,5 @@ This is just an exercise to show the attendees of my talk at @tlp_innova http://
 
 ### Problems?
 
-Shot me an email to a@adrianvera.com with any problem
+Shoot me an email to a@adrianvera.com with any problem
 
